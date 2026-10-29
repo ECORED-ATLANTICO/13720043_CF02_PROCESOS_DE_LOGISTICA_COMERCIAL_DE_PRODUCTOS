@@ -2,8 +2,6 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
@@ -19,489 +17,707 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Verificación y control del despacho de mercancías.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar la apropiación de los conocimientos relacionados con la gestión de proveedores, los recursos logísticos, la programación del despacho, los procedimientos técnicos y el control de las operaciones aplicados al despacho de mercancías.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_aprobado: '¡EXCELENTE!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
+      mensaje_aprobado:
+        '¡Felicitaciones! Ha aprobado satisfactoriamente la actividad de aprendizaje. Su resultado evidencia la apropiación de los conceptos relacionados con la verificación y el control del despacho de mercancías. Lo invitamos a continuar con el desarrollo de las siguientes actividades del componente formativo.',
+      mensaje_reprobado:
+        'Aún puede fortalecer sus conocimientos. Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con proveedores, recursos, programación, procedimientos técnicos, verificación, control y mejora del despacho de mercancías. Posteriormente podrá presentar nuevamente la actividad para evidenciar el logro de los resultados de aprendizaje.',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el principal propósito de evaluar periódicamente a los proveedores dentro del proceso de despacho de mercancías?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Incrementar el número de proveedores contratados.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+              texto: 'Reducir el presupuesto destinado a compras.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
+              texto:
+                'Verificar su desempeño y garantizar el cumplimiento de los requisitos de la operación logística.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Eliminar los registros de abastecimiento.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Correcto! La evaluación permite verificar el desempeño de los proveedores y garantizar la continuidad de las operaciones logísticas.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente el contenido relacionado con la gestión de proveedores en el componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de los siguientes elementos corresponde a un recurso físico utilizado en el despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto: 'Estanterías para almacenamiento.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Presupuesto anual de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Manual de funciones.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Plan estratégico comercial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Las estanterías hacen parte de los recursos físicos utilizados durante las operaciones logísticas.',
+          mensaje_incorrecto:
+            'Revise nuevamente los tipos de recursos utilizados en el despacho de mercancías.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué aspecto debe considerarse prioritariamente al programar un despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'El diseño del logotipo empresarial.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'El color del embalaje.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'La distribución del mobiliario administrativo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto:
+                'La disponibilidad de recursos, los tiempos de entrega y las prioridades de los pedidos.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La programación del despacho considera recursos, tiempos y prioridades para garantizar el cumplimiento de las entregas.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con la programación del despacho de mercancías.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es el objetivo principal de los procedimientos técnicos durante el despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Diseñar estrategias publicitarias.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto:
+                'Estandarizar las actividades para garantizar un despacho seguro y conforme a los requisitos establecidos.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Incrementar el número de pedidos diarios.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Sustituir los controles del sistema de gestión.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Los procedimientos técnicos permiten ejecutar las operaciones de forma estandarizada y segura.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los procedimientos técnicos para el despacho.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Cuál es la principal función de los recursos humanos en el proceso de despacho?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Planificar, coordinar y ejecutar las actividades logísticas conforme a los procedimientos establecidos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Sustituir los recursos tecnológicos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Determinar las políticas tributarias de la organización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Elaborar exclusivamente informes financieros.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El talento humano es responsable de ejecutar y controlar las actividades logísticas del despacho.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los recursos humanos en las operaciones logísticas.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué herramienta facilita el registro y la consulta de información en tiempo real durante las operaciones de despacho?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Libro contable.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
+              texto: 'Formato de vacaciones.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
+              texto:
+                'Sistema de gestión de almacenes (Warehouse Management System - WMS).',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Organigrama institucional.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El WMS facilita el control y la actualización de la información logística en tiempo real.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los recursos tecnológicos utilizados en el despacho de mercancías.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué actividad hace parte del procedimiento de verificación antes de autorizar el despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Elaborar el presupuesto anual de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Diseñar campañas promocionales.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Actualizar el reglamento interno de trabajo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
+              texto:
+                'Comprobar que las referencias, cantidades y documentos correspondan al pedido preparado.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La verificación confirma que la mercancía y la documentación coincidan con el pedido antes del despacho.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los procedimientos de verificación del despacho.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál es el propósito principal de establecer tiempos de operación durante la programación del despacho?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Incrementar el número de actividades administrativas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Organizar y controlar la ejecución de las actividades para cumplir los tiempos de entrega establecidos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Sustituir la programación del transporte.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar los controles de calidad del proceso.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Los tiempos de operación permiten planificar y controlar el desarrollo eficiente del despacho de mercancías.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con la programación del despacho de mercancías.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál de las siguientes actividades corresponde a la fase de asignación de recursos en la programación del despacho?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Distribuir el personal, los equipos y los vehículos necesarios para ejecutar las operaciones.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Elaborar campañas de mercadeo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diseñar el portafolio de productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Calcular los impuestos de la organización.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La asignación de recursos garantiza la disponibilidad de los medios necesarios para ejecutar el despacho.',
+          mensaje_incorrecto:
+            'Revise nuevamente las fases de la programación del despacho.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál de los siguientes documentos evidencia el desarrollo de las operaciones y las novedades presentadas durante el despacho?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Manual de identidad corporativa.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Organigrama institucional.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Presupuesto de ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Registro logístico.',
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El registro logístico documenta las operaciones realizadas y las novedades ocurridas durante el despacho.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los registros de información y novedades.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es el principal objetivo del seguimiento del despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Elaborar informes financieros.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Diseñar nuevos productos para el mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Monitorear el cumplimiento de la programación e identificar oportunamente las novedades de la operación.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Sustituir la evaluación de proveedores.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El seguimiento permite controlar el desarrollo del despacho e identificar oportunamente cualquier novedad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con el seguimiento del despacho.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál es la finalidad de utilizar indicadores de control en el proceso de despacho?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar la cantidad de documentos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Medir el desempeño de las operaciones y apoyar la toma de decisiones para la mejora continua.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir los procedimientos técnicos establecidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el seguimiento de las entregas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Los indicadores permiten evaluar el desempeño de las operaciones logísticas y fortalecer la mejora continua.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los indicadores de control.',
+        },
+        {
+          id: 13,
+          texto:
+            'Cuando durante el despacho se identifica una diferencia entre la mercancía preparada y la orden de entrega, la organización debe:',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Continuar el despacho sin registrar la situación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar la documentación del pedido.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto:
+                'Informar únicamente al cliente una vez finalice la entrega.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Registrar la novedad y aplicar el procedimiento establecido para corregir la situación antes de la entrega.',
               esCorrecta: true,
             },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Las novedades deben registrarse y atenderse conforme a los procedimientos definidos por la organización.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con la verificación y el control del despacho.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cuál de las siguientes acciones corresponde a una medida preventiva dentro del proceso de despacho?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Capacitar periódicamente al personal para reducir errores operativos.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Esperar a que ocurran fallas para tomar decisiones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar los controles establecidos por la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Suspender el seguimiento de las operaciones.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La capacitación fortalece las competencias del personal y contribuye a prevenir errores durante el despacho.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con las acciones preventivas en el proceso de despacho.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es el principal propósito de incorporar innovación tecnológica en el proceso de despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Incrementar el número de actividades manuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Optimizar las operaciones, mejorar la trazabilidad y fortalecer el control del proceso logístico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir totalmente al talento humano.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la programación de las operaciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La innovación tecnológica mejora la eficiencia, la trazabilidad y el control de las operaciones de despacho.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con la innovación aplicada al despacho de mercancías.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál de las siguientes prácticas contribuye al mejoramiento continuo del proceso de despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Realizar las actividades sin registrar los resultados obtenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Mantener los mismos procedimientos sin evaluar su eficacia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Analizar los indicadores de desempeño e implementar acciones de mejora cuando se identifiquen oportunidades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminar los controles establecidos para agilizar el proceso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El análisis de indicadores permite identificar oportunidades de mejora y fortalecer el desempeño del proceso logístico.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con el control y la mejora del proceso de despacho.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué criterio es fundamental para seleccionar un proveedor que participe en el proceso de despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Su capacidad para cumplir los requisitos de calidad, tiempos de entrega y condiciones acordadas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Su ubicación geográfica únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El número de empleados administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La antigüedad de la empresa sin considerar su desempeño.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+          mensaje_correcto:
+            '¡Correcto! La selección de proveedores debe basarse en su capacidad para cumplir los requisitos definidos por la organización.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los criterios para la selección de proveedores.',
         },
         {
-          id: 2,
+          id: 18,
           texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+            'Si durante la entrega el cliente informa que la cantidad recibida no coincide con la orden de despacho, ¿cuál debe ser la actuación correcta?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Finalizar la entrega sin verificar la información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solicitar al cliente que modifique la orden de despacho.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Esperar a que finalice la jornada para informar la novedad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Verificar la información, registrar la novedad y aplicar el procedimiento establecido por la organización.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Toda diferencia detectada durante la entrega debe verificarse, registrarse y atenderse conforme a los procedimientos establecidos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con la verificación de la entrega y el registro de novedades.',
         },
         {
-          id: 3,
+          id: 19,
           texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+            '¿Cuál es el propósito principal de registrar las novedades presentadas durante el despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar la cantidad de documentos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Mantener la trazabilidad de la operación y facilitar la implementación de acciones correctivas y preventivas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir la programación del despacho.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la evaluación de los procesos logísticos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El registro de novedades permite mantener la trazabilidad del proceso y apoyar la mejora continua de las operaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con los registros de información y novedades del despacho.',
         },
         {
-          id: 4,
+          id: 20,
           texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+            '¿Cuál es el beneficio más importante de aplicar buenas prácticas en el control del despacho de mercancías?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducir la participación del talento humano en el proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Disminuir el uso de herramientas tecnológicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Fortalecer la eficiencia, la confiabilidad y la satisfacción del cliente mediante operaciones controladas y estandarizadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminar la necesidad de realizar verificaciones antes de la entrega.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Las buenas prácticas permiten optimizar el proceso de despacho, reducir errores y ofrecer un mejor servicio al cliente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido relacionado con el control y la mejora continua del proceso de despacho.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>
