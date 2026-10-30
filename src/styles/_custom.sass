@@ -209,10 +209,10 @@ figcaption
       background-color: #FEB341
 
 .bg-color-c2
-  background-color: #FFF6F9
+  background-color: #F0FCFF
   &.cajon
     &::before
-      background-color: #FFA4C7
+      background-color: #6EDDF9
 
 .bg-color-c3
   background-color: #EEF6FF
@@ -262,6 +262,15 @@ figcaption
   // background-image: url("../assets/curso/tema1/bg01.png") !important
   background-position: center
   background-size: cover
+
+.bg-fondo-3
+  // background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/bg02.png") !important
+  background-image: url("../assets/curso/tema1/img09.png") !important
+  background-position: center
+  background-size: 100% 100%
+  border-radius: 15px
+  @media screen and ( max-width: $bp-max-md )
+    background-size: cover
 
 // .bg-fondo-2
   // background-image: url("../assets/curso/tema1/img24.png") !important
@@ -447,8 +456,8 @@ figcaption
 .bg-fondo-17
   background-image: url("../assets/curso/tema2/img11.png") !important
   background-position: center
-  background-size: 100% 100%
-  background-repeat: no-repeat
+  background-size: cover
+  // background-repeat: no-repeat
   border-radius: 15px
   @media screen and (max-width: $bp-max-md)
     background-size: cover
@@ -838,6 +847,9 @@ a, button, div
 
 .bg-color-0
   background-color: #FDFCEA
+  &.cajon
+    &::before
+      background-color: #EBE037
 
 .bg-color-01
   background-color: #B2DCFF
@@ -905,6 +917,9 @@ a, button, div
 
 .bg-color-018
   background-color: #F9F9F9
+
+.bg-color-019
+  background-color: #EBE037
 
 // Background colors utilities (Keep used ones)
 .bg-color-1
@@ -1433,6 +1448,11 @@ a, button, div
   @media screen and (max-width: $bp-max-md)
     width: 75% !important
 
+.w-sm-75
+  width: 75% !important
+  @media screen and (max-width: $bp-max-sm)
+    width: 100% !important
+
 .w-md-75-img
   width: 75% !important
   @media screen and (max-width: $bp-max-md)
@@ -1540,3 +1560,7 @@ a, button, div
 
 //   @media screen and (max-width: $bp-max-md)
 //     display: none
+.tarjeta-flip.color-primario .tarjeta-flip__img
+  background-color: #FDFCEA !important
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: #FDFCEA !important
