@@ -160,7 +160,7 @@
 
       
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-5
       .col-lg-auto.d-none.d-lg-flex
         img(src="@/assets/curso/tema4/img17.svg", style="max-width: 150px").mx-auto
       .col-lg

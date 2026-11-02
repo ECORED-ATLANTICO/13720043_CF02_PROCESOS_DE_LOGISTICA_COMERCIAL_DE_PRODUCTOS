@@ -125,7 +125,7 @@
             .col-lg-auto.order-1
               img.d-none.d-lg-flex(src="@/assets/curso/tema5/img05.svg", style="max-width: 150px").mx-auto
             .col-lg.order-2
-              p.mb-0(data-aos="fade-right") El indicador se calcula así: <b>Entregas oportunas = (180 ÷ 200) × 100 = 90 %</b>
+              p.mb-0(data-aos="fade-right") El indicador se calcula así: <span class="h3"><b>Entregas oportunas = (180 ÷ 200) × 100 = 90 %</b></span>
               p.mb-0 El resultado evidencia una diferencia de cinco puntos porcentuales frente a la meta, por lo que la organización debe analizar las causas de los retrasos y establecer acciones de mejora.
 
 
@@ -330,7 +330,7 @@
                 img(src="@/assets/curso/tema5/img-bg.png", alt="").mx-auto
             .col-lg-12.col-xl-8.p-4
               h4 Ejemplo aplicado
-              p.mb-0 Una empresa comercializadora identifica un incremento en los tiempos de cargue. Para mejorar el proceso, analiza las causas, reorganiza la distribución de las mercancías en la zona de despacho y capacita al personal. Posteriormente, mide nuevamente los tiempos para determinar la eficacia de los ajustes realizados.e
+              p.mb-0 Una empresa comercializadora identifica un incremento en los tiempos de cargue. Para mejorar el proceso, analiza las causas, reorganiza la distribución de las mercancías en la zona de despacho y capacita al personal. Posteriormente, mide nuevamente los tiempos para determinar la eficacia de los ajustes realizados.
 
 
     .row.align-items-center.justify-content-center(data-aos="fade-right")
@@ -340,7 +340,7 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-md-0.mx-auto.mx-md-0.text-center.d-none.d-lg-flex.order-3
               img(src="@/assets/curso/tema5/img21.png", style="max-width: 140px; margin-bottom: -15px; margin-top: -10px;").mx-auto
             .col-12.col-md-12.col-lg-7.col-xl-8.mb-3.mb-md-2.order-1
-              h4.mb-2 Video sugerido. Mejora continua en logística: reduce costos y elimina errores (PHVA, Lean, Kaizen)
+              h4.mb-2 Video sugerido. Mejora continua en logística: reduce costos y elimina errores (PHVA, <em>Lean</em>, <em>Kaizen</em>)
               p.mb-0 Para complementar los conocimientos sobre el seguimiento, control y mejora de las operaciones logísticas, se invita a consultar el siguiente video:
             .col-12.col-md-auto.text-start.text-md-start.text-lg-center.order-2
               a.boton.color-acento-botones(:href="'https://www.youtube.com/watch?v=tBj5q8002SA'" target="_blank")

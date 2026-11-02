@@ -96,7 +96,7 @@
 
     .row.mb-lg-5.mb-5.justify-content-center.align-items-center
       .col-lg-10.col-md-12
-        .cajon.bg-color-c1.p-4
+        .cajon.bg-color-c2.p-4
           p.mb-0 En las operaciones de despacho intervienen diferentes proveedores que suministran recursos para preparar, proteger, movilizar y entregar las mercancías. A continuación, se presentan los principales tipos, según los bienes o servicios que ofrecen.
 
 

@@ -143,7 +143,7 @@
             .col-lg-auto.order-2
               img.d-none.d-lg-flex(src="@/assets/curso/tema2/img12.svg", style="max-width: 150px").mx-auto
             .col-lg.order-1
-              p.mb-0 .La asignación del personal debe considerar el volumen de trabajo, la complejidad de las actividades, las competencias requeridas y las condiciones de seguridad y salud en el trabajo.
+              p.mb-0 La asignación del personal debe considerar el volumen de trabajo, la complejidad de las actividades, las competencias requeridas y las condiciones de seguridad y salud en el trabajo.
           
         p.mb-0 Asimismo, la formación continua permite fortalecer las habilidades relacionadas con la manipulación de mercancías, el uso de equipos y tecnologías, la aplicación de procedimientos técnicos y la atención de novedades durante el despacho.
 

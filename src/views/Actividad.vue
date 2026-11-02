@@ -218,7 +218,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Sistema de gestión de almacenes (Warehouse Management System - WMS).',
+                'Sistema de gestión de almacenes (<em>Warehouse Management System</em> - WMS).',
               esCorrecta: true,
             },
             {
