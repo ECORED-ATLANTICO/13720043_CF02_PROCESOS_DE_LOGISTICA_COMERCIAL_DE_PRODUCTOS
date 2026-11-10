@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Especificaciones de materiales y mercancías
+      h1 Procedimientos técnicos para el despacho
 
 
     .bloque-texto-g.bg-color-10.p-3.p-sm-4.p-md-5.mb-4
@@ -32,11 +32,10 @@
           .col-lg-auto.d-none.d-lg-flex
             img(src="@/assets/curso/tema4/img03.svg", style="max-width: 150px").mx-auto
           .col-lg
-            p.mb-0 En el despacho de mercancías, orientan las actividades de preparación, verificación, embalaje, cargue y entrega, con el propósito de garantizar que se desarrollen conforme a las condiciones establecidas.
-            p.mb-0 La estandarización facilita la capacitación del personal, disminuye las diferencias en la ejecución de las tareas y contribuye al cumplimiento de los requisitos de calidad y seguridad.
+            p.mb-0 Los procedimientos técnicos son instrucciones documentadas que establecen la secuencia de actividades, los responsables, los recursos y los controles necesarios para ejecutar una operación.
         .container
           .row.align-items-center.bg-fondo-07.br-15.mb-4.p-3
-            p.mb-0 Su finalidad es coordinar las operaciones de almacenamiento, preparación de pedidos, verificación y transporte, considerando la disponibilidad de recursos y las condiciones de entrega acordadas con los clientes.
+            p.mb-0 En el despacho de mercancías, orientan las actividades de preparación, verificación, embalaje, cargue y entrega, con el propósito de garantizar que se desarrollen conforme a las condiciones establecidas. La estandarización facilita la capacitación del personal, disminuye las diferencias en la ejecución de las tareas y contribuye al cumplimiento de los requisitos de calidad y seguridad.
 
         p.mb-0(data-aos="fade-right") Estos procedimientos deben actualizarse cuando se presenten cambios en los equipos, las tecnologías, las condiciones operativas o los requisitos aplicables.
 

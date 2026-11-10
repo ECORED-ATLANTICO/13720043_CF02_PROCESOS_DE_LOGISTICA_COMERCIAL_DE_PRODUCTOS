@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Documentación para la preparación y despacho
+      h1 Programación del despacho de mercancías
 
     .bg-full-width.bg-fondo-03.px-5.py-4
       img(src="@/assets/curso/tema3/img01.png", alt="")
@@ -217,6 +217,9 @@
               tr
                 td Entrega
                 td Tiempo transcurrido desde la salida del envío hasta su recepción por el destinatario.
+              tr
+                td Actividad
+                td Tiempo de operación
 
 
     .row.align-items-center.mb-5
@@ -241,7 +244,7 @@
     separador
     
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.5	Fases de la programación del despacho
+      h2 3.5 Fases de la programación del despacho
 
     .container
       .row.mb-lg-4.mb-5.justify-content-center.align-items-center

@@ -155,7 +155,7 @@
             p.mb-1 Operan dentro del territorio del país y permiten acceder a una oferta más amplia de bienes y servicios.
             h5 Proveedores internacionales:
             p.mb-0 Suministran productos o servicios desde otros países y pueden facilitar el acceso a tecnologías, equipos o materiales especializados.
-
+            p.mb-0 La elección entre estas alternativas depende de factores como costos, disponibilidad, tiempos de abastecimiento, condiciones de entrega y capacidad de respuesta.
 
     .container
       .row.mb-3.justify-content-center.align-items-center.p-lg-4.p-3

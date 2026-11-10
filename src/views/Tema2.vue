@@ -200,7 +200,7 @@
     separador
     
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5	Recursos financieros
+      h2 2.5 Recursos financieros
       
     .bloque-texto-g.bg-color-10.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(

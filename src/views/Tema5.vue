@@ -125,7 +125,8 @@
             .col-lg-auto.order-1
               img.d-none.d-lg-flex(src="@/assets/curso/tema5/img05.svg", style="max-width: 150px").mx-auto
             .col-lg.order-2
-              p.mb-0(data-aos="fade-right") El indicador se calcula así: <span class="h3"><b>Entregas oportunas = (180 ÷ 200) × 100 = 90 %</b></span>
+              p.mb-2(data-aos="fade-right") El indicador se calcula así: 
+              p.mb-0 <b>Entregas oportunas = (180 ÷ 200) × 100 = 90 %</b>
               p.mb-0 El resultado evidencia una diferencia de cinco puntos porcentuales frente a la meta, por lo que la organización debe analizar las causas de los retrasos y establecer acciones de mejora.
 
 
@@ -349,7 +350,7 @@
         .tarjeta.bg-fondo-21.p-3.p-md-4.mb-5
           .row.justify-content-around.align-items-center.p-2
             .col-12.col-md-12.col-lg-7.col-xl-8.mb-3.mb-md-2.order-2.order-md-1.order-lg-2
-              h4.mb-2 Lectura sugerida. Modelos de gestión logistica y de la cadena de suministro. Mejora continua
+              h4.mb-2 Lectura sugerida. Modelos de gestión logística y de la cadena de suministro. Mejora continua
               p.mb-0 Para ampliar los conocimientos relacionados con el control y la mejora de los procesos logísticos, se recomienda consultar el siguiente documento:
             .col-12.col-md-auto.text-start.text-md-start.text-lg-center.order-3.order-md-2.order-lg-3
               a.boton.color-acento-botones(:href="'https://www.centro-virtual.com/recursos/biblioteca/pdf/logistica/unidad2_pdf1.pdf'" target="_blank")
