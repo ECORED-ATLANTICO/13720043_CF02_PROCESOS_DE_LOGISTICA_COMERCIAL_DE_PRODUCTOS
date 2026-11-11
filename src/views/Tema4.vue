@@ -72,31 +72,31 @@
       .col-lg-9.order-2.order-lg-1.col-md-12.mb-0.mb-lg-0
         SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-3")
           .tarjeta.bg-fondo-05.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img06.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
+            .circulo-letra.mx-auto.mb-3 A.
             h4.text-center Preparación de pedidos
             p.text-center.mb-0 Establece las actividades para localizar, seleccionar y organizar las mercancías de acuerdo con las referencias y cantidades solicitadas.
           .tarjeta.bg-fondo-05.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
+            .circulo-letra.mx-auto.mb-3 B.
             h4.text-center Verificación de mercancías
             p.text-center.mb-0 Define los controles necesarios para comprobar las cantidades, referencias, condiciones físicas y documentación de los productos.
           .tarjeta.bg-fondo-05.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img08.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
+            .circulo-letra.mx-auto.mb-3 C.
             h4.text-center Embalaje y acondicionamiento
             p.text-center.mb-0 Establece las condiciones de protección, embalaje, identificación y manipulación requeridas según las características de las mercancías.
           .tarjeta.bg-fondo-05.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img09.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
+            .circulo-letra.mx-auto.mb-3 D.
             h4.text-center Cargue y despacho
             p.text-center.mb-0 Orienta la organización de la carga, la utilización de equipos, la verificación de condiciones de seguridad y la autorización de salida.
           .tarjeta.bg-fondo-05.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img10.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
+            .circulo-letra.mx-auto.mb-3 E.
             h4.text-center Registro de información y novedades
             p.text-center.mb-0 Determina cómo documentar los movimientos de mercancías, las diferencias identificadas y las situaciones que afectan la operación.
           .tarjeta.bg-fondo-05.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img13.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
+            .circulo-letra.mx-auto.mb-3 F.
             h4.text-center Entrega y confirmación de recepción
             p.text-center.mb-0 Establece los controles para identificar al destinatario, entregar las mercancías y registrar la conformidad o las novedades.
           .tarjeta.bg-fondo-05.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img14.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
+            .circulo-letra.mx-auto.mb-3 G.
             h4.text-center Gestión de devoluciones e incidencias
             p.text-center.mb-0 Define las actividades para registrar, clasificar y gestionar devoluciones, daños, diferencias y demás situaciones posteriores al despacho.
 
