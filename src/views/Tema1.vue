@@ -379,22 +379,6 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-md-0.mx-auto.mx-md-0.text-center.order-1.order-md-3.d-none.d-lg-flex
               img(src="@/assets/curso/tema5/img23.png", style="max-width: 160px; margin-bottom: -15px; margin-top: -10px;").mx-auto
 
-
-    .container
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-10
-          .row.bg-fondo-18.align-items-center.justify-content-center.br-15.p-0
-            .col-md-8.col-lg-5.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1.p-0
-              figure
-                img(src="@/assets/curso/tema4/img11.png", data-aos="fade-right").mx-auto.w-md-75-img
-            .col-lg-6.order-1.order-md-1.order-lg-2.p-4.p-lg-4
-              p(data-aos="fade-left").mb-4 Para complementar los conocimientos sobre la organización de las operaciones logísticas, se invita a consultar el pódcast:
-              TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Políticas logísticas: el punto de partida para una cadena de suministro eficiente"
-                tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
-              )
-              p.mb-0 Que aborda la importancia de establecer lineamientos para coordinar los procesos y fortalecer la eficiencia de la cadena de suministro.
   
 </template>
 

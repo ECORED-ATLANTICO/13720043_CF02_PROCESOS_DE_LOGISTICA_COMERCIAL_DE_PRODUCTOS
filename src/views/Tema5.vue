@@ -371,7 +371,7 @@
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-0(
                 texto="Verificación y control del despacho de mercancías."
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast3.mp3')"
+                :audio="require_src('@/assets/curso/podcast/podcast2.mp3')"
               )
 
 </template>

@@ -302,7 +302,7 @@
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
                 texto="Proveedores y recursos para un despacho eficiente"
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast2.mp3')"
+                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
               )
               p.mb-0 Que profundiza en la importancia de coordinar el abastecimiento y los recursos necesarios para desarrollar las operaciones logísticas.
 
