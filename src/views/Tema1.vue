@@ -57,7 +57,7 @@
       .col-lg-auto.d-none.d-lg-flex
         img(src="@/assets/curso/tema1/img05.svg", style="max-width: 150px").mx-auto
       .col-lg
-        p.mb-3 En las operaciones de despacho participan diferentes proveedores que suministran los recursos necesarios para preparar, proteger, movilizar y entregar las mercancías. A continuación, se presentan algunos de los principales.
+        p.mb-3 En las operaciones de despacho participan diferentes proveedores que suministran los recursos necesarios para preparar, proteger, movilizar y entregar las mercancías. 
         p.mb-0 Entre las clasificaciones más utilizadas se encuentran:
     
     .row.justify-content-center.align-items-center.mb-5
