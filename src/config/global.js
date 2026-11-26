@@ -373,11 +373,11 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre del Líder de la Línea',
+          nombre: 'Miguel De Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -388,7 +388,7 @@ export default {
       autores: [
         {
           nombre: 'Sergio Andrés Quintero Guzmán',
-          cargo: 'Experto Temático Logística',
+          cargo: 'Experto temático logística',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

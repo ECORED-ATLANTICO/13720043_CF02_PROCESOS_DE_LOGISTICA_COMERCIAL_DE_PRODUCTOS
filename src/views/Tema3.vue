@@ -217,9 +217,7 @@
               tr
                 td Entrega
                 td Tiempo transcurrido desde la salida del envío hasta su recepción por el destinatario.
-              tr
-                td Actividad
-                td Tiempo de operación
+
 
 
     .row.align-items-center.mb-5

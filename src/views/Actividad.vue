@@ -59,7 +59,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La evaluación permite verificar el desempeño de los proveedores y garantizar la continuidad de las operaciones logísticas.',
+            ' La evaluación permite verificar el desempeño de los proveedores y garantizar la continuidad de las operaciones logísticas.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con la gestión de proveedores en el componente formativo.',
         },
@@ -92,7 +92,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Las estanterías hacen parte de los recursos físicos utilizados durante las operaciones logísticas.',
+            ' Las estanterías hacen parte de los recursos físicos utilizados durante las operaciones logísticas.',
           mensaje_incorrecto:
             'Revise nuevamente los tipos de recursos utilizados en el despacho de mercancías.',
         },
@@ -126,7 +126,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La programación del despacho considera recursos, tiempos y prioridades para garantizar el cumplimiento de las entregas.',
+            ' La programación del despacho considera recursos, tiempos y prioridades para garantizar el cumplimiento de las entregas.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con la programación del despacho de mercancías.',
         },
@@ -160,7 +160,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Los procedimientos técnicos permiten ejecutar las operaciones de forma estandarizada y segura.',
+            ' Los procedimientos técnicos permiten ejecutar las operaciones de forma estandarizada y segura.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los procedimientos técnicos para el despacho.',
         },
@@ -194,7 +194,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El talento humano es responsable de ejecutar y controlar las actividades logísticas del despacho.',
+            ' El talento humano es responsable de ejecutar y controlar las actividades logísticas del despacho.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los recursos humanos en las operaciones logísticas.',
         },
@@ -228,7 +228,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El WMS facilita el control y la actualización de la información logística en tiempo real.',
+            ' El WMS facilita el control y la actualización de la información logística en tiempo real.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los recursos tecnológicos utilizados en el despacho de mercancías.',
         },
@@ -262,7 +262,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La verificación confirma que la mercancía y la documentación coincidan con el pedido antes del despacho.',
+            ' La verificación confirma que la mercancía y la documentación coincidan con el pedido antes del despacho.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los procedimientos de verificación del despacho.',
         },
@@ -296,7 +296,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Los tiempos de operación permiten planificar y controlar el desarrollo eficiente del despacho de mercancías.',
+            ' Los tiempos de operación permiten planificar y controlar el desarrollo eficiente del despacho de mercancías.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con la programación del despacho de mercancías.',
         },
@@ -330,7 +330,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La asignación de recursos garantiza la disponibilidad de los medios necesarios para ejecutar el despacho.',
+            ' La asignación de recursos garantiza la disponibilidad de los medios necesarios para ejecutar el despacho.',
           mensaje_incorrecto:
             'Revise nuevamente las fases de la programación del despacho.',
         },
@@ -363,7 +363,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El registro logístico documenta las operaciones realizadas y las novedades ocurridas durante el despacho.',
+            ' El registro logístico documenta las operaciones realizadas y las novedades ocurridas durante el despacho.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los registros de información y novedades.',
         },
@@ -397,7 +397,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El seguimiento permite controlar el desarrollo del despacho e identificar oportunamente cualquier novedad.',
+            ' El seguimiento permite controlar el desarrollo del despacho e identificar oportunamente cualquier novedad.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con el seguimiento del despacho.',
         },
@@ -431,7 +431,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Los indicadores permiten evaluar el desempeño de las operaciones logísticas y fortalecer la mejora continua.',
+            ' Los indicadores permiten evaluar el desempeño de las operaciones logísticas y fortalecer la mejora continua.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los indicadores de control.',
         },
@@ -466,7 +466,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Las novedades deben registrarse y atenderse conforme a los procedimientos definidos por la organización.',
+            ' Las novedades deben registrarse y atenderse conforme a los procedimientos definidos por la organización.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con la verificación y el control del despacho.',
         },
@@ -500,7 +500,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La capacitación fortalece las competencias del personal y contribuye a prevenir errores durante el despacho.',
+            ' La capacitación fortalece las competencias del personal y contribuye a prevenir errores durante el despacho.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con las acciones preventivas en el proceso de despacho.',
         },
@@ -534,7 +534,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La innovación tecnológica mejora la eficiencia, la trazabilidad y el control de las operaciones de despacho.',
+            ' La innovación tecnológica mejora la eficiencia, la trazabilidad y el control de las operaciones de despacho.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con la innovación aplicada al despacho de mercancías.',
         },
@@ -571,7 +571,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El análisis de indicadores permite identificar oportunidades de mejora y fortalecer el desempeño del proceso logístico.',
+            ' El análisis de indicadores permite identificar oportunidades de mejora y fortalecer el desempeño del proceso logístico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con el control y la mejora del proceso de despacho.',
         },
@@ -605,7 +605,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La selección de proveedores debe basarse en su capacidad para cumplir los requisitos definidos por la organización.',
+            ' La selección de proveedores debe basarse en su capacidad para cumplir los requisitos definidos por la organización.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los criterios para la selección de proveedores.',
         },
@@ -640,7 +640,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Toda diferencia detectada durante la entrega debe verificarse, registrarse y atenderse conforme a los procedimientos establecidos.',
+            'Toda diferencia detectada durante la entrega debe verificarse, registrarse y atenderse conforme a los procedimientos establecidos.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con la verificación de la entrega y el registro de novedades.',
         },
@@ -674,7 +674,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El registro de novedades permite mantener la trazabilidad del proceso y apoyar la mejora continua de las operaciones.',
+            ' El registro de novedades permite mantener la trazabilidad del proceso y apoyar la mejora continua de las operaciones.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con los registros de información y novedades del despacho.',
         },
@@ -710,7 +710,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Las buenas prácticas permiten optimizar el proceso de despacho, reducir errores y ofrecer un mejor servicio al cliente.',
+            ' Las buenas prácticas permiten optimizar el proceso de despacho, reducir errores y ofrecer un mejor servicio al cliente.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido relacionado con el control y la mejora continua del proceso de despacho.',
         },

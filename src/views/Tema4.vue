@@ -257,7 +257,7 @@
               h4.mb-2 Video sugerido. Módulo 3: procesos logísticos en la recepción, almacenamiento y despacho de mercancías
               p.mb-0 Para fortalecer los conocimientos sobre los procedimientos técnicos aplicados a las operaciones logísticas, se invita a consultar el siguiente video como complemento de los contenidos desarrollados.
             .col-12.col-md-auto.text-start.text-md-start.text-lg-center.order-2
-              a.boton.color-acento-botones(:href="'https://www.youtube.com/watch?v=BYFAeVPFuto&t=2078s'" target="_blank")
+              a.boton.color-acento-botones(:href="'https://youtu.be/BYFAeVPFuto?si=Og2eybNz_rc6tbZF'" target="_blank")
                 span Ir al recurso
 
         .tarjeta.bg-fondo-21.p-3.p-md-4.mb-4
